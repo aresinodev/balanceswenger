@@ -8,8 +8,11 @@ Vue.config.devtools = true;
 
 Vue.use(VueRouter);
 
+const router = new VueRouter({ mode: 'history', routes });
+
 new Vue({
   render: h => h(App),
-  routes
+  router
 })
   .$mount('#app');
+

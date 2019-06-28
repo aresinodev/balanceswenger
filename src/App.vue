@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <Login />
+    <router-view />
+    <!-- <Login /> -->
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
@@ -12,13 +13,13 @@ import Login from './components/login/Login';
 
 export default {
   name: 'app',
-  components: {
-   Login
-  }
+  components: {}
 }
 </script>
 
-<style>
+<style lang="scss">
+  @import './styles';
+
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

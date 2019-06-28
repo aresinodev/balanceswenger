@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+$primary: #3aaf04;
+
+$theme-colors: (
+    'primary': $primary
+);
+
+@function get-color($key: "primary") {
+  @return map-get($theme-colors, $key);
+}
+
+$font-family-base: 'Open Sans', sans-serif;
