@@ -1,8 +1,12 @@
 <template lang="html">
 
-  <section class="src-components-login">
-    <h1>src-components-login Component</h1>
-  </section>
+  <div class="components-login-container">
+    <div class="main">
+      <h1 class="main-title">
+        {{ $t('login.title') }}
+      </h1>
+    </div>
+  </div>
 
 </template>
 
