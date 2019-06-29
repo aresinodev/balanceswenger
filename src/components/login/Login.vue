@@ -67,7 +67,7 @@
           password: this.password
         };
 
-        axios.post('http://biwenger.as.com/api/v2/auth/login',
+        axios.post('https://biwenger.as.com/api/v2/auth/login',
         data, config)
         .then((response) => {
             console.log('Login response', response);
