@@ -26,5 +26,32 @@
             font-weight: 800;
             font-size: 2.5em;
         }
+
+        &-form-login {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            label {
+                width: 100%;
+                font-weight: 800;
+                text-align: left;
+            }
+
+            .btn-login {
+                top: 0;
+                background-color: transparent;
+                border: 1px solid black !important;
+                box-shadow: 0 5px 0 #222222;
+                color: black;
+                transition: all ease 0.3s;
+            }
+
+            .btn-login:active {
+                box-shadow: 0 3px 0 #222222;
+                top: 3px;
+            }
+        }
     }
 }

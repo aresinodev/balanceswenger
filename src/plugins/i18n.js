@@ -6,12 +6,18 @@ Vue.use(VueI18n);
 const messages = {
     'en': {
         login: {
-            title: 'balanceswenger'
+            title: 'balanceswenger',
+            email: 'Email',
+            password: 'Password',
+            enter: 'Enter'
         }
     },
     'es': {
         login: {
-            title: 'balanceswenger'
+            title: 'balanceswenger',
+            email: 'Email',
+            password: 'Contraseña',
+            enter: 'Entrar'
         }
     }
 };
